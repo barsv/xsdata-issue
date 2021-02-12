@@ -8,7 +8,7 @@ xml_serializer = XmlSerializer(config=config)
 schema = xmlschema.XMLSchema('test.xsd')
 
 order = Shiporder()
-
+#order.name = "test"
 xml = xml_serializer.render(order)
 print(xml)
 schema.validate(xml)
