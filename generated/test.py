@@ -15,5 +15,6 @@ class Shiporder:
             "type": "Element",
             "namespace": "",
             "required": True,
+            "nillable": True,
         }
     )

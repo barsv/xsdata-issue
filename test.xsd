@@ -4,7 +4,7 @@
 <xs:element name="shiporder">
   <xs:complexType>
     <xs:sequence>
-      <xs:element name="orderTime" type="xs:dateTime"/>
+      <xs:element name="orderTime" nillable="true" type="xs:dateTime"/>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
